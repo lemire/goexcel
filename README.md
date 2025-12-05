@@ -35,3 +35,8 @@ go run main.go
 ```
 
 Le fichier `sales_report.xlsx` sera généré dans le répertoire courant. Vous pouvez l'ouvrir avec Excel ou tout autre lecteur de fichiers Excel. Vous pouvez ouvrir le document.
+
+
+## Activité
+
+Examinez le contenu du programme (`main.go`). Pouvez-vous modifier les données et générer un nouveau chiffrier excel?
