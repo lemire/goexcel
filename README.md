@@ -1,4 +1,4 @@
-# Rapport de Ventes Excel
+# Rapport des ventes en excel
 
 Ce programme Go génère un fichier Excel contenant un rapport de ventes mensuelles. Il utilise la bibliothèque `excelize` pour créer un fichier Excel avec des données d'exemple, des styles et des formules.
 
@@ -19,7 +19,7 @@ Ce programme Go génère un fichier Excel contenant un rapport de ventes mensuel
 ## Installation
 
 1. Assurez-vous que Go est installé sur votre système.
-2. Clonez ou téléchargez ce projet.
+2. [Clonez ou téléchargez ce projet](https://github.com/lemire/goexcel/archive/refs/heads/main.zip).
 3. Installez les dépendances :
 
    ```bash
@@ -34,4 +34,9 @@ Exécutez le programme :
 go run main.go
 ```
 
-Le fichier `sales_report.xlsx` sera généré dans le répertoire courant. Vous pouvez l'ouvrir avec Excel ou tout autre lecteur de fichiers Excel.
+Le fichier `sales_report.xlsx` sera généré dans le répertoire courant. Vous pouvez l'ouvrir avec Excel ou tout autre lecteur de fichiers Excel. Vous pouvez ouvrir le document.
+
+
+## Activité
+
+Examinez le contenu du programme (`main.go`). Pouvez-vous modifier les données et générer un nouveau chiffrier excel?
