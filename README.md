@@ -1,4 +1,4 @@
-# Rapport de Ventes Excel
+# Rapport des ventes en excel
 
 Ce programme Go génère un fichier Excel contenant un rapport de ventes mensuelles. Il utilise la bibliothèque `excelize` pour créer un fichier Excel avec des données d'exemple, des styles et des formules.
 
