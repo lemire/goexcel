@@ -1,6 +1,6 @@
 module goexcel
 
-go 1.25.3
+go 1.24.0
 
 require github.com/xuri/excelize/v2 v2.10.0
 

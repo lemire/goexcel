@@ -8,12 +8,12 @@ Ce programme Go génère un fichier Excel contenant un rapport de ventes mensuel
 - Ajout de données de ventes pour différents produits
 - Calcul automatique des totaux avec des formules Excel
 - Application de styles aux en-têtes (fond bleu, texte blanc, bordures)
-- Ajustement automatique de la largeur des colonnes
-- Sauvegarde du fichier sous le nom `sales_report.xlsx`
+- Largeur fixe (20) pour les colonnes A à D
+- Sauvegarde du fichier sous le nom `rapport_ventes.xlsx`
 
 ## Dépendances
 
-- Go 1.16 ou supérieur
+- Go 1.24 ou supérieur (version minimale exigée par `excelize` v2.10)
 - Bibliothèque `github.com/xuri/excelize/v2`
 
 ## Installation
@@ -34,7 +34,7 @@ Exécutez le programme :
 go run main.go
 ```
 
-Le fichier `sales_report.xlsx` sera généré dans le répertoire courant. Vous pouvez l'ouvrir avec Excel ou tout autre lecteur de fichiers Excel. Vous pouvez ouvrir le document.
+Le fichier `rapport_ventes.xlsx` sera généré dans le répertoire courant. Vous pouvez l'ouvrir avec Excel ou tout autre lecteur de fichiers Excel. Vous pouvez ouvrir le document.
 
 
 ## Activité
